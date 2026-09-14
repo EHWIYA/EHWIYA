@@ -2,6 +2,10 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:312E81,100:7C3AED&height=230&section=header&text=EHWIYA&fontSize=68&fontColor=FFFFFF&fontAlignY=38&desc=AI%20Workflow%20Engineer&descAlignY=58&descSize=20&animation=fadeIn)
 
+# 이휘 · AI 서비스 개발자
+
+[포트폴리오](https://iwhya.kr) · [FOWOCO 구현 사례](https://iwhya.kr/projects/hr-agent)
+
 ### 복잡한 현실의 문제를, 신뢰할 수 있는 AI Workflow로 설계합니다.
 
 [![GitHub](https://img.shields.io/badge/GitHub-EHWIYA-181717?style=for-the-badge&logo=github)](https://github.com/EHWIYA)
