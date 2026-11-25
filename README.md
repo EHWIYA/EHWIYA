@@ -14,9 +14,6 @@
 
 ## 관심 분야별로 보기
 
-**모바일 앱　/　[LIVBEE](https://github.com/livbee-project/fornt-end-wabapp)**  
-LIVBEE에서는 Flutter로 캠페인과 모델을 검색하고 정렬하는 화면을 만들었습니다.
-
 **AI 에이전트　/　[FOWOCO](https://github.com/fowoco/ai/pull/27)**  
 체류기간 연장에 필요한 여권이 없으면 분석부터 하지 않고, 근로자에게 서류를 요청하도록 했습니다.
 
