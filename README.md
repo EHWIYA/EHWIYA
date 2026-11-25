@@ -1,4 +1,4 @@
-![이휘의 작업 노트](assets/cover.svg)
+![이휘의 포트폴리오 — 입고ITGO, CHCAR, FOWOCO, DYNOSTY](assets/cover.svg)
 
 **앱과 웹 서비스를 만드는 개발자 이휘입니다.** Flutter로 앱을 만들고, React와 Spring Boot로 웹 서비스를 개발합니다. AI 에이전트가 정보가 부족할 때 멈춰서 다시 묻는 흐름도 설계했습니다.
 
@@ -13,6 +13,9 @@
 [발주량 계산](https://github.com/IpgoITGO/ipgo-ai/pull/151) · [React 화면](https://github.com/IpgoITGO/ipgo-client/pull/459) · [Spring Boot API](https://github.com/IpgoITGO/ipgo-server/pull/271)
 
 ## 관심 분야별로 보기
+
+**모바일 앱　/　[CHCAR(치카) · 내 차 시세 조회 앱](https://github.com/EHWIYA/chcar-frontend)**  
+차량 연식과 주행거리를 입력하면 예상 시세 범위를 확인할 수 있는 앱입니다. `React Native` · `Expo`
 
 **AI 에이전트　/　[FOWOCO](https://github.com/fowoco/ai/pull/27)**  
 체류기간 연장에 필요한 여권이 없으면 분석부터 하지 않고, 근로자에게 서류를 요청하도록 했습니다.
