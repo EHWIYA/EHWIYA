@@ -14,8 +14,8 @@
 
 ## 관심 분야별로 보기
 
-**모바일 앱　/　[캐릭터챗](https://github.com/charchat-app/charchat-app/pull/21) · [LIVBEE](https://github.com/livbee-project/fornt-end-wabapp)**  
-캐릭터챗에서는 앱을 닫아도 쓰던 메시지가 남도록 했습니다. LIVBEE에서는 Flutter로 캠페인과 모델을 검색하고 정렬하는 화면을 만들었습니다.
+**모바일 앱　/　[LIVBEE](https://github.com/livbee-project/fornt-end-wabapp)**  
+LIVBEE에서는 Flutter로 캠페인과 모델을 검색하고 정렬하는 화면을 만들었습니다.
 
 **AI 에이전트　/　[FOWOCO](https://github.com/fowoco/ai/pull/27)**  
 체류기간 연장에 필요한 여권이 없으면 분석부터 하지 않고, 근로자에게 서류를 요청하도록 했습니다.
@@ -26,7 +26,6 @@
 <details>
 <summary>구현 기록과 다른 프로젝트 더 보기</summary>
 
-- 캐릭터챗 · [서버에서 대화 이어가기](https://github.com/charchat-app/charchat-server/pull/16)
 - FOWOCO · [팀에서 내가 맡은 일](https://github.com/EHWIYA/EHWIYA/blob/main/projects/fowoco.md)
 - DYNOSTY · [3D 렌더링 개선](https://github.com/DYNOSTY/dynosty/pull/67)
 - [Hwiya IoT](https://github.com/EHWIYA/home-assistant-front-end) · 휴대폰으로 에어컨과 콘센트 제어
