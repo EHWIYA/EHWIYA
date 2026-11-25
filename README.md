@@ -1,34 +1,35 @@
-# 이휘 · AI 서비스 개발자
+![이휘의 작업 노트](assets/cover.svg)
 
-LangGraph와 FastAPI로 자연어 요청을 분석하고, 필요한 정보를 확인하며, 다음 작업으로 연결하는 AI Workflow를 개발합니다.
-Flutter 앱·웹 개발과 스토어 심사, 웹 배포, QA 경험도 있습니다.
+**앱과 웹 서비스를 만드는 개발자 이휘입니다.** Flutter로 앱을 만들고, React와 Spring Boot로 웹 서비스를 개발합니다. AI 에이전트가 정보가 부족할 때 멈춰서 다시 묻는 흐름도 설계했습니다.
 
-[포트폴리오](https://iwhya.kr) · [FOWOCO 구현 사례](https://iwhya.kr/projects/hr-agent)
+[포트폴리오 보기 ↗](https://iwhya.kr)
 
-## 대표 프로젝트
+## 대표작　입고ITGO
 
-| 프로젝트 | 해결하려는 문제 | 주요 기술 |
-| --- | --- | --- |
-| [FOWOCO](projects/fowoco.md) | 외국인근로자 HR 업무에서 누락 정보와 서류 상태를 확인하고 다음 절차를 연결 | Python, FastAPI, LangGraph |
-| [Hwiya IoT](https://github.com/EHWIYA/home-assistant-front-end) | 에어컨·콘센트·멀티탭 상태 조회와 제어를 모바일 화면에 통합 | React, TypeScript, FastAPI, PWA |
-| [Ledger Weight](https://github.com/EHWIYA/ledger-weight-back-end) | 카드 게임의 실시간 통신과 게임 로직을 백엔드 서버로 구현 | Python, FastAPI, WebSocket |
+**같은 12개가 입고돼도, 도착일이 다르면 오늘의 발주량은 달라집니다.**
 
-## FOWOCO에서 맡은 일
+6일째 도착하면 추가 발주는 **0개**, 18일째 도착하면 **10개**인 사례입니다. 예정 입고일을 계산에 반영하고, 담당자가 품절 위험을 확인하는 화면과 입고 조건을 저장하는 API를 만들었습니다.
 
-**8인 교육 팀 프로젝트 · 2026.06–2026.08 · Agent Orchestration / AI Serving**
+[발주량 계산](https://github.com/IpgoITGO/ipgo-ai/pull/151) · [React 화면](https://github.com/IpgoITGO/ipgo-client/pull/459) · [Spring Boot API](https://github.com/IpgoITGO/ipgo-server/pull/271)
 
-재계약·체류기간 연장 업무를 지원하는 서비스에서 Supervisor Graph와 Shared State, AI Serving API를 담당했습니다.
-AI가 요청을 분석하고 초안을 만들면, HR 담당자가 검토하고 최종 승인하는 구조입니다.
+## 관심 분야별로 보기
 
-- **계획과 분석 분리:** AI가 필요한 데이터 항목을 먼저 요청하고, Server가 권한을 확인해 값을 보충한 뒤 분석하도록 API를 구성했습니다. [PR #13](https://github.com/fowoco/ai/pull/13)
-- **서류 누락 분기:** 여권·외국인등록증 상태가 `MISSING`이면 근로자에게 서류를 요청하도록 연결했습니다. [PR #27](https://github.com/fowoco/ai/pull/27)
-- **실행 모델 추적:** 분석 응답에 실제 Intent 모델 정보를 반환해 모델 실행과 fallback을 구분하도록 수정했습니다. [PR #28](https://github.com/fowoco/ai/pull/28)
+**모바일 앱　/　[캐릭터챗](https://github.com/charchat-app/charchat-app/pull/21) · [LIVBEE](https://github.com/livbee-project/fornt-end-wabapp)**  
+캐릭터챗에서는 앱을 닫아도 쓰던 메시지가 남도록 했습니다. LIVBEE에서는 Flutter로 캠페인과 모델을 검색하고 정렬하는 화면을 만들었습니다.
 
-[개인 기여 상세](projects/fowoco.md) · [팀 AI Runtime](https://github.com/fowoco/ai) · [팀 역할 소개](https://github.com/fowoco#team-contributions)
+**AI 에이전트　/　[FOWOCO](https://github.com/fowoco/ai/pull/27)**  
+체류기간 연장에 필요한 여권이 없으면 분석부터 하지 않고, 근로자에게 서류를 요청하도록 했습니다.
 
-## 기술과 경험
+**3D 웹 게임　/　[DYNOSTY](https://github.com/DYNOSTY/dynosty)**  
+목재를 주문하고 불량품을 교환하며 마을을 키우는 게임입니다. 마을을 그리는 데 쓰는 3D 자산을 줄이고 플레이 중인 마을의 저장 동작을 고쳤습니다.
 
-- **AI Workflow:** Python, FastAPI, LangGraph — 요청 분석, 상태 관리, 조건별 분기와 API 연동
-- **앱·웹:** Dart, Flutter, React, TypeScript — 화면 개발, API 연동, 배포와 QA
-- **개발·검증:** Git, Docker, GitHub Actions, Pytest — 변경 검토, 실행 환경 구성과 테스트
+<details>
+<summary>구현 기록과 다른 프로젝트 더 보기</summary>
 
+- 캐릭터챗 · [서버에서 대화 이어가기](https://github.com/charchat-app/charchat-server/pull/16)
+- FOWOCO · [팀에서 내가 맡은 일](https://github.com/EHWIYA/EHWIYA/blob/main/projects/fowoco.md)
+- DYNOSTY · [3D 렌더링 개선](https://github.com/DYNOSTY/dynosty/pull/67)
+- [Hwiya IoT](https://github.com/EHWIYA/home-assistant-front-end) · 휴대폰으로 에어컨과 콘센트 제어
+- [Ledger Weight](https://github.com/EHWIYA/ledger-weight-back-end) · 카드 게임의 실시간 통신과 게임 로직 구현
+
+</details>
